@@ -1,0 +1,18 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Midwest Farmland",
+                "description": "High soil carbon retention - 3.2% organic matter"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-92.5, 42.5], [-92.5, 43.0], [-92.0, 43.0], [-92.0, 42.5], [-92.5, 42.5]
+                ]
+            }
+        }
+    ]
+}

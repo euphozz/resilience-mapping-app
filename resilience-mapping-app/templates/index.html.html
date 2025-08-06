@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resilience Mapping Tool</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>Resilience Mapping Tool</h1>
+        <p>Track environmental factors to protect and improve landscapes</p>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div class="controls">
+        <button class="layer-btn" data-layer="soil-carbon">Soil Carbon</button>
+        <button class="layer-btn" data-layer="biodiversity">Biodiversity</button>
+        <button class="layer-btn" data-layer="erosion">Erosion</button>
+        <button class="layer-btn" data-layer="heat-islands">Heat Islands</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="/static/map.js"></script>
+</body>
+</html>

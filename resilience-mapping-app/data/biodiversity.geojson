@@ -1,0 +1,18 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rocky Mountain Corridor",
+                "description": "Critical wildlife migration pathway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-108.5, 39.0], [-107.8, 39.2], [-107.0, 39.5], [-106.5, 39.8]
+                ]
+            }
+        }
+    ]
+}
